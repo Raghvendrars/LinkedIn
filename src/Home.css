@@ -1,0 +1,157 @@
+.header-text{
+    font-size:3.3rem;
+    color:#2977C9;
+}
+.hero_section{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+    /* background: #000; */
+}
+.hero_section_row{
+    width:100%;
+    display:flex;
+}
+
+.hero_section_col{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+    float:left;
+    
+}
+.hero_section_taglines{
+margin-left: 10%;
+}
+.svgimage{
+    width:100%;
+    margin: 0px;
+    padding:0px;
+    height:auto;
+    /* background: #cf3a3a; */
+}
+.option_box{
+    margin-top: 14px;
+    width:72%;
+    padding: 14px 20px;
+    border: 1px solid #e7ecef;
+    border-radius: 8px;
+    transition: all .2s ease-in-out;
+    
+}
+
+.option_box:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.option_box_main{
+    /*  */
+    font-weight: normal;
+}
+
+/* find job section */
+.findJob_section{
+    width:100%;
+    padding-top: 0px;
+    min-height:440px;
+    max-height:1000px;
+    background: #FAF9F7;
+    
+}
+.findJob_row{
+    width:100%;
+    padding-top:3%;
+}
+
+.findJob_col{
+    background: #FAF9F7;
+    /* width:50%; */
+    justify-self: center;
+    float: left;
+}
+
+.findJob-text{
+    font-size:3rem;
+    font-weight:normal;
+    color:#000000;
+}
+
+.findJob_section_card{
+    background: #FAF9F7;
+
+}
+
+.job_suggested{
+    color:#646463;
+}
+.btn_container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background: #FAF9F7;
+  padding: 10px;
+}
+
+.buttons {
+    background-color: #E6E5E4;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    padding:13px 0;
+    color:#5C5C5B;
+    font-size: 22px;
+}
+
+.show_more_btn{
+    border: none;
+    padding:10px 20px;
+    font-weight:500;
+    color:#646463;
+    background: #FAF9F7;
+}
+
+.findMoreJob_section{
+    width:100%;
+    padding-top: 0px;
+    min-height:550px;
+    max-height:1000px;
+    background: #FAF9F7;
+    
+}
+
+.postJobs{
+    width:100%;
+    padding-top: 0px;
+    height:240px;
+    max-height:1000px;
+    background: #F1ECE5;
+}
+.post_job_col{
+    justify-content:center;
+    padding-top: 80px;
+    color:#B24020;
+}
+.post_job_tagline{
+    font-size: 2.2rem;
+    
+}
+#post_job_btn{
+    background: #F1ECE5;
+    border: 1px solid grey;
+    border-radius: 30px;
+    text-align: center;
+    justify-self: center;
+    padding:10px 23px;
+    color:#5C5C5B;
+    font-size: 20px;
+}
+
+#post_job_btn:hover{
+    border: 1px solid black;
+    color:#000100;
+    background:lightgray;
+}
