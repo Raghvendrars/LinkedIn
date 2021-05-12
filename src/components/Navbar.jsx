@@ -9,7 +9,7 @@ function Navbar(props) {
     <Router>
       <div className="navbar_main">
         <div className="container-fluid container ">
-          <img className="logo" src={logo}  />
+          <img className="logo" src={logo} />
           <ul className="nav_list ">
             <li className="nav_list_home">
               <NavLink className="home_btn" to="/home">
